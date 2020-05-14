@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:background="#12000000"
+    android:padding="5dip">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="411dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="empty"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/switchb"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:buttonTint="#00F10909"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/tempL"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tempText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="0°C"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/temp"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="70dip"
+            android:layout_height="match_parent"
+            android:max="60"
+            android:progress="0"
+            android:progressDrawable="@drawable/circle" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/humL"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/humText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0%"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/hum"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="70dip"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circle_hum" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/brL"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/brText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="0%"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/br"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/brightness_circle" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/rgbButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="RGB" />
+
+</LinearLayout>

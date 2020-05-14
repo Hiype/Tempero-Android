@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tempero</string>
+    <string name="backButton">Back</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Brightness">Brightness</string>
+    <string name="Empty">Empty</string>
+    <string name="edit">Edit:</string>
+    <string name="apply">Apply</string>
+    <string name="color_dialog_title">Choose color</string>
+</resources>

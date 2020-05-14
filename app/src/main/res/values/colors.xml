@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#153a74</color>
+    <color name="colorPrimaryDark">#153a74</color>
+    <color name="colorAccent">#153a74</color>
+    <color name="switchOn">#1A9939</color>
+    <color name="switchOff">#c40414</color>
+    <color name="white">#fff</color>
+</resources>
