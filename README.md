@@ -1,5 +1,5 @@
 # Tempero-Android
-Android application for the Tempero project.
+Android application for the Tempero school project.
 
 How to use the app:
 
